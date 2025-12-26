@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "bisae/platform",
   "description": "bisae-platform es la plataforma base de BISAE para el desarrollo de soluciones digitales modulares. Proporciona la estructura, convenciones y mecanismos necesarios para que desarrolladores construyan plataformas, módulos y aplicaciones desacopladas sobre el kernel BISAE, manteniendo escalabilidad, consistencia arquitectónica y evolución controlada.",
@@ -19,25 +18,3 @@
     ]
   }
 }
-=======
-{
-  "name": "bisae/platform",
-  "description": "bisae-platform es la plataforma base de BISAE para el desarrollo de soluciones digitales modulares. Proporciona la estructura, convenciones y mecanismos necesarios para que desarrolladores construyan plataformas, módulos y aplicaciones desacopladas sobre el kernel BISAE, manteniendo escalabilidad, consistencia arquitectónica y evolución controlada.",
-  "type": "project",
-  "license": "MIT",
-  "require": {
-    "php": ">=8.1",
-    "bisae/kernel": "^0.3 || dev-main"
-  },
-  "autoload": {
-    "psr-4": {
-      "bisae\\platform\\": "platform/"
-    }
-  },
-  "scripts": {
-    "post-create-project-cmd": [
-      "php bisae install"
-    ]
-  }
-}
->>>>>>> b4b437d97c399d4a64e6c02ea6e85383f5fe4252
