@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+echo "🚀 Instalando BISAE Platform...\n";
+
+@mkdir('modules');
+@copy('.env.example', '.env');
+
+echo "✔ Instalación básica completada\n";
