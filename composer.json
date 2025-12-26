@@ -27,7 +27,7 @@
   "license": "MIT",
   "require": {
     "php": ">=8.1",
-    "bisae/kernel": "^1.0"
+    "bisae/kernel": "^0.3 || dev-main"
   },
   "autoload": {
     "psr-4": {
