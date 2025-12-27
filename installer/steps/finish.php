@@ -3,7 +3,11 @@
 //require_once __DIR__ . '/../support/EnvWriter.php';
 require 'C:/xampp/htdocs/bisae/platform/bisae-platform/installer/support/EnvWriter.php';
 
+require_once 'C:/xampp/htdocs/bisae/platform/bisae-platform/installer/support/UrlDetector.php';
+
+
 $data = State::get();
+$data['APP_URL'] = UrlDetector::detect();
 
 //Installer\Support\EnvWriter::create(ENV_FILE, $data);
 EnvWriter::create(ENV_FILE, $data);
