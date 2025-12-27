@@ -1,14 +1,13 @@
 #!/usr/bin/env php
 <?php
 @mkdir('files');
-echo <br/> .
-      '🌱 Bienvenido a tu nueva plataforma BISAE.' . <br/> . <br/> .
-      'Has dado el primer paso para crear un espacio donde las ideas,' . <br/> .
-      'los datos y los sistemas pueden crecer con orden, claridad y propósito.' . <br/> . <br/> .
-      'La instalación base se ha completado correctamente.' . <br/> . <br/> .
-      'El siguiente paso es dar forma a tu plataforma.' . <br/> .
-      'Continúa la instalación visual en tu navegador:' . <br/> . <br/> .
-      '👉 http://localhost/plataformaY/installer/install.php' . <br/> . <br/> .
-      'Cuando finalices, recuerda eliminar la carpeta /installer por seguridad.' . <br/> . <br/> .
-      'Gracias por construir con BISAE.' . <br/> .
-      'Felicidades: tu plataforma está a punto de nacer. 🚀✨' . <br/>;
+echo '<br/>🌱 Bienvenido a tu nueva plataforma BISAE<br/><br/>
+	  Has dado el primer paso para crear un espacio donde las ideas,<br/>
+      los datos y los sistemas pueden crecer con orden, claridad y propósito.<br/><br/>
+      La instalación base se ha completado correctamente.<br/><br/>
+      El siguiente paso es dar forma a tu plataforma.<br/>
+      Continúa la instalación visual en tu navegador:<br/><br/>
+      👉 http://localhost/plataformaY/installer/install.php<br/><br/>
+      Cuando finalices, recuerda eliminar la carpeta /installer por seguridad.<br/><br/>
+      Gracias por construir con BISAE.<br/>
+      Felicidades: tu plataforma está a punto de nacer. 🚀✨<br/>';
