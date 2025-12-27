@@ -13,8 +13,20 @@
     }
   },
   "scripts": {
-    "post-create-project-cmd": [
-	  "php installer/CLI/install.php install"
+    "post-install-cmd": [
+      "@php -r \"echo PHP_EOL .
+      '🌱 Bienvenido a tu nueva plataforma BISAE.' . PHP_EOL . PHP_EOL .
+      'Has dado el primer paso para crear un espacio donde las ideas,' . PHP_EOL .
+      'los datos y los sistemas pueden crecer con orden, claridad y propósito.' . PHP_EOL . PHP_EOL .
+      'La instalación base se ha completado correctamente.' . PHP_EOL . PHP_EOL .
+      'El siguiente paso es dar forma a tu plataforma.' . PHP_EOL .
+      'Continúa la instalación visual en tu navegador:' . PHP_EOL . PHP_EOL .
+      '👉 http://localhost/tu-plataforma/installer/install.php' . PHP_EOL . PHP_EOL .
+      'O si te encuentras en un hosting compartido e instalaste bisae en la raíz:' . PHP_EOL . PHP_EOL .
+      '👉 https://tu-dominio.xyz/installer/install.php' . PHP_EOL . PHP_EOL .
+      'Cuando finalices, recuerda eliminar la carpeta /installer por seguridad.' . PHP_EOL . PHP_EOL .
+      'Gracias por construir con BISAE.' . PHP_EOL .
+      'Felicidades: tu plataforma está a punto de nacer. 🚀✨' . PHP_EOL;\""
     ]
   }
 }
