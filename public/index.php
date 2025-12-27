@@ -1,8 +1,8 @@
 <?php
 
-require 'vendor/load.php';
+//require 'vendor/load.php';
 
-use bisae\kernel;
+//use bisae\kernel;
 
 
 echo "Primera página web";
