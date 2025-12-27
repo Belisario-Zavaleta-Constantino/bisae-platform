@@ -26,7 +26,7 @@ class Console
         return $input !== '' ? $input : ($default ?? '');
     }
 
-    public static function askHidden(string $question): string
+    /*public static function askHidden(string $question): string
     {
         echo "$question: ";
         system('stty -echo');
@@ -34,7 +34,26 @@ class Console
         system('stty echo');
         echo "\n";
         return $value;
-    }
+    }*/
+	
+	
+	public static function askHidden(string $question): string
+	{
+		echo "$question: ";
+
+		if (stripos(PHP_OS, 'WIN') === 0) {
+			// Windows: no se puede ocultar sin hacks
+			return trim(fgets(STDIN));
+		}
+
+		// Unix / Linux / macOS
+		system('stty -echo');
+		$value = trim(fgets(STDIN));
+		system('stty echo');
+		echo "\n";
+
+		return $value;
+	}
 
     public static function success(string $text)
     {
