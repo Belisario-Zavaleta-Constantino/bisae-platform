@@ -14,7 +14,7 @@
   },
   "scripts": {
     "post-create-project-cmd": [
-      "php bisae install"
+	  "php installer/CLI/install.php install"
     ]
   }
 }
